@@ -1,0 +1,49 @@
+.header {
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.header__top-inner {
+    display: flex;
+    min-height: 85px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__content {
+    border-top: 1px solid var(--line-bg-color);
+    margin-top: 0;
+    min-height: 895px;
+    background-image: url(../../img/header/headerBg.png);
+    background-size: cover;
+}
+
+.header__content-inner {
+    margin-top: 11rem;
+    max-width: 27.5rem;
+}
+
+.header__content-title {
+    font-family: Georgia;
+    text-align: left;
+    font-size: 4.0625rem;
+    letter-spacing: 0;
+    color: var(--accent-bg-color);
+    margin-bottom: 1.875rem;
+}
+
+.header__content-description {
+    max-width: 26.35rem;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 1.25rem;
+    text-align: left;
+    line-height: 145%;
+    margin-bottom: 3.4rem;
+    padding: 0;
+    margin-top: 0;
+}
+.header__content-first-p {
+    line-height: 157%;
+    margin: 0;
+}

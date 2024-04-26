@@ -1,116 +1,23 @@
-
-/* Fonts import */
-
-@import url("https://fonts.googleapis.com/css?family=Georgia&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+@import url(./css/normolise.css);
+@import url(./css/container/container.css);
+@import url(./css/header/logo.css);
+@import url(./css/header/header.css) layer(header);
+@import url(./css/button.css);
+@import url(./css/header/navlist.css);
+@import url(./css/sections/works.css);
+@import url(./css/sections/story.css);
+@import url(./css/sections/ourproduct.css);
+@import url(./css/footer/footer.css);
 
 /* Variables */
 
 :root {
-    --main-bg-color:#fff;
-    --black-title-color:#000000;
-    --accent-bg-color:#01996D;
-    --title-bg-color:#292929;
-    --line-bg-color:#D6D6D6;
-    --paragraph-bg-color:#484848;
-}
-
-/* Normolise */
-
-*{
-    box-sizing: border-box;
-    padding: 0;   
-    margin: 0;
-    overflow: hidden;
-}
-
-/* Header */
-
-.header {
-    max-width: 1920px;
-    margin: 0 auto;
-}
-
-.header__top {
-    border-bottom:1px solid var(--line-bg-color);
-}
-
-.container {
-    padding: 0 275px;
-}
-
-.header__top-inner {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    min-height: 85px;
-    padding: 17px 0;
-}
-
-.header__content{
-    margin-top: 0;
-    height: 895px;
-    background-image: url(./img/header/headerBg.png);
-    background-size: cover;
-    padding-top: 175px;
-
-}
-
-.header__content-inner {
-    width: 440px;
-}
-
-.header__content-title {
-    font-family: Georgia;
-    font-style: normal;
-    text-align: left;
-    font-size: 65px;
-    letter-spacing: 0;
-    color: var(--accent-bg-color);
-}
-
-.header__content-description {
-    margin: 30px 20px 18px 0;
-    font-family: Lato;
-    font-style: normal;
-    font-size: 20px;
-    text-align: left;
-    letter-spacing: 0;
-}
-.header__button-colorless {
-    padding: 13px 20px;
-}
-.button {
-    display: inline-flex;
-    font-family: Lato;
-    text-decoration: none;
-    font-size: 20px;
-    border-radius: 4px;
-}
-
-.header__button-green {
-    background-color: var(--accent-bg-color);
-    color: var(--black-title-color);
-    padding: 20px;
-}
-
-.header__button-colorless {
-    color: var(--main-title-color);
-}
-
-.nav__list {
-    display: flex;
-    gap: 72px;
-    font-family: Lato;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 20px;
-    list-style: none;
-}
-
-.nav__list a {
-    text-decoration: none;
-    color: var(--title-bg-color);
-    font-family: Lato;
-    font-size: 20px;
+  --main-bg-color: #fff;
+  --black-title-color: #000000;
+  --accent-bg-color: #01996d;
+  --accent-bg-color-lite: rgba(1, 153, 109, 0.2);
+  --dark-green: #245852;
+  --title-bg-color: #292929;
+  --line-bg-color: #d6d6d6;
+  --paragraph-bg-color: #484848;
 }

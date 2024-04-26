@@ -1,0 +1,94 @@
+.works {
+    min-width: 1413px;
+    min-height: 1386px;
+}
+
+.works__text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 12.25rem;
+}
+.works__container {
+    min-width: 45%;
+}
+.works__title {
+    font-family: Georgia;
+    text-align: left;
+    font-size: 50px;
+    letter-spacing: 0;
+    color: var(--accent-bg-color);
+}
+.works__discription {
+    font-family: Lato;
+    text-align: left;
+    font-size: 20px;
+    letter-spacing: 0;
+    color: var(--paragraph-bg-color);
+}
+.works__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    min-height: 58rem;
+}
+
+.works__cards :first-child {
+    transform: translateY(-10%);
+}
+.works__cards :nth-child(2) {
+    transform: translateY(11%);
+}
+.works__cards :last-child {
+    transform: translateY(-9.5%);
+}
+
+.works__card-item {
+    max-width: 24.375rem;
+    padding: 3.75rem 0;
+}
+
+.card__count {
+    text-align: left;
+    font-family: Georgia;
+    font-weight: regular;
+    font-size: 9.375rem;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: var(--accent-bg-color-lite);
+}
+
+.card-title {
+    text-align: center;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 1.875rem;
+    line-height: 150%;
+    letter-spacing: 0;
+    color: var(--black-title-color);
+}
+
+.card-description {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 1.25rem;
+    line-height: 150%;
+    letter-spacing: 0;
+}
+
+.card__img {
+    background-size: cover;
+    min-height: 30.75rem;
+    border-radius: 0.75rem;
+    margin-top: 3.75rem;
+}
+
+.works__img-left {
+    background-image: url(../../img/sections/1pesonalize.jpg);
+}
+.works__img-center {
+    background-image: url(../../img/sections/2write.jpg);
+}
+.works__img-right {
+    background-image: url(../../img/sections/3alivio.jpg);
+}

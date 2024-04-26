@@ -1,0 +1,17 @@
+.nav__list {
+    display: flex;
+    gap: 4.5rem;
+    margin-right: 7.4rem;
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 1.25rem;
+    list-style: none;
+    letter-spacing: 0;
+}
+
+.nav__list a {
+    text-decoration: none;
+    color: var(--title-bg-color);
+    font-family: Lato;
+    font-size: 1.25rem;
+}

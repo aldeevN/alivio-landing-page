@@ -1,0 +1,24 @@
+.button {
+    display: inline-flex;
+    font-family: Lato;
+    text-decoration: none;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.15px;
+    border-radius: 0.25rem;
+}
+
+.header__button-green {
+    background-color: var(--accent-bg-color);
+    color: var(--black-title-color);
+    padding: 1.2rem 3.12rem;
+    color: var(--main-bg-color);
+}
+
+.header__button-colorless {
+    padding: 0 1.9rem;
+    color: var(--main-title-color);
+}
+.header__button-up {
+    padding: 0.9rem 3.12rem;
+}
