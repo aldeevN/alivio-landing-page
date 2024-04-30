@@ -1,0 +1,23 @@
+.our-product {
+    margin: 0 auto;
+    min-height: 922px;
+}
+.our-product__container {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1370px;
+    margin-top: 7.5rem;
+    margin-bottom: 10.5rem;
+}
+.our-product__container-left {
+    min-width: 43.75rem;
+    min-height: 40.5rem;
+    background-image: url(../../img/sections/ourproduct.jpg);
+    background-size: cover;
+
+    border-radius: 1.1rem;
+}
+
+.our-product__container-right {
+    margin-left: 5.4rem;
+}

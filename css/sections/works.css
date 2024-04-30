@@ -12,20 +12,7 @@
 .works__container {
     min-width: 45%;
 }
-.works__title {
-    font-family: Georgia;
-    text-align: left;
-    font-size: 50px;
-    letter-spacing: 0;
-    color: var(--accent-bg-color);
-}
-.works__discription {
-    font-family: Lato;
-    text-align: left;
-    font-size: 20px;
-    letter-spacing: 0;
-    color: var(--paragraph-bg-color);
-}
+
 .works__cards {
     display: flex;
     flex-wrap: wrap;

@@ -1,0 +1,33 @@
+.container__story {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1506px;
+    margin: 0 auto;
+}
+
+.story {
+    min-height: 922px;
+    background-color: var(--dark-green);
+}
+.story__container-left {
+    margin: 19.375rem 0 16.25rem 0;
+    text-align: left;
+}
+.story__container-right {
+    margin: 17.5rem 0 11rem 0;
+    background-image: url(../../img/sections/Video.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.1rem;
+    min-width: 56rem;
+    min-height: 32.25rem;
+}
+
+.story__title {
+    color: var(--main-bg-color);
+}
+.story__discription {
+    color: var(--main-bg-color);
+}
