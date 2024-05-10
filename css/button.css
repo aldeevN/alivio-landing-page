@@ -3,22 +3,27 @@
     font-family: Lato;
     text-decoration: none;
     font-size: 1.25rem;
-    line-height: 1.5rem;
-    letter-spacing: 0.15px;
+    line-height: 1.5625rem;
+    letter-spacing: 0;
     border-radius: 0.25rem;
 }
 
 .header__button-green {
     background-color: var(--accent-bg-color);
     color: var(--black-title-color);
-    padding: 1.2rem 3.12rem;
+    padding: 1.3rem 3.155rem;
     color: var(--main-bg-color);
 }
 
 .header__button-colorless {
-    padding: 0 1.9rem;
+    margin-right: 2.1875rem;
     color: var(--main-title-color);
 }
+
+.header__button {
+    padding: 0;
+}
+
 .header__button-up {
-    padding: 0.9rem 3.12rem;
+    padding: 0.8125rem 3.125rem;
 }

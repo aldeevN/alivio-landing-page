@@ -1,14 +1,17 @@
 @import url(./css/normolise.css);
 @import url(./css/container/container.css);
 @import url(./css/header/logo.css);
-@import url(./css/header/header.css) layer(header);
-@import url(./css/button.css);
+@import url(./css/header/header.css);
 @import url(./css/header/navlist.css);
+@import url(./css/header/header__content.css);
+@import url(./css/button.css);
 @import url(./css/sections/works.css);
 @import url(./css/sections/section-text.css);
 @import url(./css/sections/story.css);
 @import url(./css/sections/ourproduct.css);
 @import url(./css/footer/footer.css);
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 
 /* Variables */
 
@@ -24,6 +27,7 @@
 }
 
 .main {
+  font-family: "Lato";
   max-width: 1920px;
   margin: 0 auto;
 }

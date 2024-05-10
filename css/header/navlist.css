@@ -1,17 +1,16 @@
 .nav__list {
     display: flex;
-    gap: 4.5rem;
-    margin-right: 7.4rem;
-    font-family: Lato;
-    font-weight: 500;
-    font-size: 1.25rem;
     list-style: none;
-    letter-spacing: 0;
+    justify-content: space-between;
+    min-width: 34.8125rem;
+    padding: 0;
+    margin-right: 6rem;
 }
 
-.nav__list a {
+.nav__link {
+    font-family: "Lato";
     text-decoration: none;
     color: var(--title-bg-color);
-    font-family: Lato;
+    font-weight: 700;
     font-size: 1.25rem;
 }

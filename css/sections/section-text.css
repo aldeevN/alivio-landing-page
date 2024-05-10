@@ -1,6 +1,6 @@
 .section__title-upper {
-    font-family: Lato;
-    font-weight: SemiBold;
+    font-family: "Georgia", serif;
+    font-weight: 600;
     font-size: 1.5rem;
     line-height: 157%;
     letter-spacing: 0;
@@ -9,18 +9,20 @@
 }
 
 .section__title {
-    font-family: Georgia;
+    font-family: "Georgia", serif;
+    font-weight: bold;
     text-align: left;
-    font-size: 50px;
+    font-size: 3.125rem;
     letter-spacing: 0;
+    line-height: 157%;
     color: var(--accent-bg-color);
     margin: 0;
     padding-top: 0;
 }
-.section__discription {
-    font-family: Lato;
+.section__description {
     text-align: left;
-    font-size: 20px;
+    line-height: 150%;
+    font-size: 1.25rem;
     letter-spacing: 0;
     color: var(--paragraph-bg-color);
 }

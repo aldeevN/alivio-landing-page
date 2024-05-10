@@ -7,7 +7,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin-top: 12.25rem;
+    margin-top: 10.5625rem;
+    margin-bottom: 13rem;
 }
 .works__container {
     min-width: 45%;
@@ -24,7 +25,7 @@
     transform: translateY(-10%);
 }
 .works__cards :nth-child(2) {
-    transform: translateY(11%);
+    transform: translateY(14%);
 }
 .works__cards :last-child {
     transform: translateY(-9.5%);
@@ -36,9 +37,10 @@
 }
 
 .card__count {
+    position: absolute;
     text-align: left;
     font-family: Georgia;
-    font-weight: regular;
+    font-weight: 400;
     font-size: 9.375rem;
     line-height: 150%;
     letter-spacing: 0;
@@ -53,6 +55,7 @@
     line-height: 150%;
     letter-spacing: 0;
     color: var(--black-title-color);
+    padding-bottom: 3rem;
 }
 
 .card-description {

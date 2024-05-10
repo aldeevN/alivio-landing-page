@@ -6,7 +6,7 @@
 }
 
 .story {
-    min-height: 922px;
+    max-height: 922px;
     background-color: var(--dark-green);
 }
 .story__container-left {
@@ -14,7 +14,7 @@
     text-align: left;
 }
 .story__container-right {
-    margin: 17.5rem 0 11rem 0;
+    margin: 14.3125rem 0 11rem 0;
     background-image: url(../../img/sections/Video.jpg);
     background-size: cover;
     display: flex;
@@ -29,5 +29,11 @@
     color: var(--main-bg-color);
 }
 .story__discription {
+    margin: 33px 0 57px 0;
+    font-weight: 400;
+    letter-spacing: 1px;
+    line-height: 157%;
+    text-align: left;
+    font-size: 1.5625rem;
     color: var(--main-bg-color);
 }
