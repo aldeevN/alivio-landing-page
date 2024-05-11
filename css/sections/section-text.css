@@ -1,8 +1,8 @@
 .section__title-upper {
     font-family: "Georgia", serif;
-    font-weight: 600;
+    font-weight: 700;
     font-size: 1.5rem;
-    line-height: 157%;
+    line-height: 4.9063rem;
     letter-spacing: 0;
     margin: 0;
     padding: 0;
@@ -19,6 +19,7 @@
     margin: 0;
     padding-top: 0;
 }
+
 .section__description {
     text-align: left;
     line-height: 150%;

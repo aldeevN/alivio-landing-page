@@ -11,6 +11,7 @@
     font-family: "Lato";
     text-decoration: none;
     color: var(--title-bg-color);
-    font-weight: 700;
+    font-weight: 500;
     font-size: 1.25rem;
+    line-height: 1.5rem;
 }
