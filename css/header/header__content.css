@@ -1,6 +1,7 @@
 .header__content-title {
     font-family: Georgia;
     text-align: left;
+    font-weight: 700;
     font-size: 4.0625rem;
     letter-spacing: 0;
     color: var(--accent-bg-color);
@@ -9,6 +10,7 @@
 }
 
 .header__content-description {
+    font-family: "Lato";
     max-width: 26.35rem;
     font-weight: 400;
     font-size: 1.25rem;
@@ -19,6 +21,7 @@
     padding: 0;
     margin-top: 0;
 }
+
 .header__content-first-p {
     letter-spacing: 0;
     line-height: 157%;
