@@ -25,7 +25,11 @@
   --line-bg-color: #d6d6d6;
   --paragraph-bg-color: #484848;
 }
-
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
 .main {
   font-family: "Lato";
   max-width: 1920px;

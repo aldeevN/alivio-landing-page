@@ -1,11 +1,11 @@
 .section__title-upper {
-    font-family: "Georgia", serif;
-    font-weight: 600;
+    font-family: "Lato";
+    font-weight: 500;
+    letter-spacing: 0;
     font-size: 1.5rem;
     line-height: 157%;
-    letter-spacing: 0;
+    display: inline-block;
     margin: 0;
-    padding: 0;
 }
 
 .section__title {
